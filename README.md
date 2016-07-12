@@ -95,9 +95,7 @@ print pyhibp.get_paste_urls("example@email.com")
 ```python
 print pyhibp.get_paste_urls("example@email.com", raw=True)
 ```
-```
-[u'https://pastebin.com/raw/fJaC0QyC', u'https://pastebin.com/raw/zeLCvYGm', etc...]
-```
+`[u'https://pastebin.com/raw/fJaC0QyC', u'https://pastebin.com/raw/zeLCvYGm', etc...]`
 
 
 [1]: https://haveibeenpwned.com/api/v2/breachedaccount/foo@bar.com
