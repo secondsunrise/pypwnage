@@ -2,6 +2,7 @@
 **pypwnage** is a small library, written in Python, that is used to interact with the haveibeenpwned API.
 
 ## Requirements
+- Python 2.7+
 - Requests
 - re
 
