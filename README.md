@@ -86,16 +86,16 @@ Returns a list of paste URL's that the account was exposed in. The function take
 - Returns all paste URL's and normal pastebin URL's
 ```python
 print pyhibp.get_paste_urls("example@email.com")
-```
-```
+
 [u'https://pastebin.com/fJaC0QyC', u'https://pastebin.com/zeLCvYGm', etc...]
 ```
 
 - Return all paste URL's and raw pastebin URL's
 ```python
 print pyhibp.get_paste_urls("example@email.com", raw=True)
+
+[u'https://pastebin.com/raw/fJaC0QyC', u'https://pastebin.com/raw/zeLCvYGm', etc...]
 ```
-`[u'https://pastebin.com/raw/fJaC0QyC', u'https://pastebin.com/raw/zeLCvYGm', etc...]`
 
 
 [1]: https://haveibeenpwned.com/api/v2/breachedaccount/foo@bar.com
