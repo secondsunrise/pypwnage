@@ -56,7 +56,6 @@ def get_all_data_classes():
     action = "dataclasses"
     url_to_fetch = api_url + action
     r = requests.get(url_to_fetch)
-
     return check_status_code(r)
 
 
